@@ -70,7 +70,7 @@ Block {
 }
 ```
 
-Due to the `timestamp` recorded in blocks is not increasing strictly with height, we added `curr_max_timestamp` field for the max timestamp of blocks, which ensures that the timestamp is increasing strictly when the blocks are generated. Some API will use the field to record the date, such as the API accessing block lists by date.
+Due to the `timestamp` recorded in blocks is not increasing strictly with height, we added `curr_max_timestamp` field for the max timestamp of blocks, which ensures that the timestamp is not less than the previous block timestamp when the blocks are generated. Some API will use the field to record the date, such as the API accessing block lists by date.
 
 ### Transaction
 
