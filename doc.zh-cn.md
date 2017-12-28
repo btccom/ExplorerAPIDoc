@@ -24,6 +24,10 @@ GET /block/1,2,3
 
 对于 POST 请求，均使用 JSON 编码。
 
+## 请求速率限制
+
+目前对外公开的API速率限制为 `每分钟120次`。如需更高调用频率请联系 `webmaster@btc.com` 说明使用范围。
+
 ## 响应类型
 
 所有的响应类型均为`application/json`，如下：
