@@ -372,6 +372,8 @@ POST /tools/verify-message
 }
 ```
 
+### 数字货币指数
+
 #### 签名的数字货币指数
 
 ```

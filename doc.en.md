@@ -302,6 +302,8 @@ GET /address/{address}/unspent
   <code>[${ENDPOINT}/address/15urYnyeJe3gwbGJ74wcX89Tz7ZtsFDVew/unspent](${ENDPOINT}/address/15urYnyeJe3gwbGJ74wcX89Tz7ZtsFDVew/unspent)</code>
 
 
+### digital currency index
+
 #### Signed digital currency index
 
 ```
