@@ -377,7 +377,7 @@ POST /tools/verify-message
 #### 签名的数字货币指数
 
 ```
-GET https://index.btc.com/cryptoindex/signindex?timestamp=${时间戳}
+GET https://index.btc.com/api/cryptoindex/signindex?timestamp=${时间戳}
 ```
 
 参数：

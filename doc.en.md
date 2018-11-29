@@ -307,7 +307,7 @@ GET /address/{address}/unspent
 #### Signed digital currency index
 
 ```
-GET https://index.btc.com/cryptoindex/signindex?timestamp=${timestamp}
+GET https://index.btc.com/api/cryptoindex/signindex?timestamp=${timestamp}
 ```
 
 Parameters：
