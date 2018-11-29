@@ -372,3 +372,24 @@ POST /tools/verify-message
 }
 ```
 
+#### 签名的数字货币指数
+
+```
+GET https://index.btc.com/cryptoindex/signindex?timestamp=${时间戳}
+```
+
+参数：
+
+  * `timestamp`，必须，时间戳。
+
+##### 示例
+
+<code>[https://index.btc.com/api/cryptoindex/signindex?timestamp=1543302948](https://index.btc.com/api/cryptoindex/signindex?timestamp=1543302948)</code>
+
+```
+{
+    timestamp: 1543284000,
+    index: 616.06,
+    sign: "64615b4b90451ece34be3d85394e1600d647a9327795eae4277e55f435b68b11"
+}
+```
