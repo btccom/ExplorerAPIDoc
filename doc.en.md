@@ -14,14 +14,6 @@ GET /block/2
 GET /block/3
 ```
 
-you can do just one:
-
-```
-GET /block/1,2,3
-```
-
-The results will be an array while you use batch request. And if the block isn't found, it will be `null`. The max number of batch request is 50.
-
 ## Response
 
 All the response types are `application/json`, as follows:
