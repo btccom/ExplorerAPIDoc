@@ -256,6 +256,8 @@ GET /tx/{txhash}
 
   <code>[${ENDPOINT}/tx/000000000000000005cb6f6e2f09e84a353ab91756a38aa50fbaf25059f76666,0ba9252660a6a5f291a8983092074f9a1da5f6d1c790518d6550f054e60bbab1](${ENDPOINT}/tx/000000000000000005cb6f6e2f09e84a353ab91756a38aa50fbaf25059f76666,0ba9252660a6a5f291a8983092074f9a1da5f6d1c790518d6550f054e60bbab1)</code>
 
+获取多个交易暂不开放，请联系微信 BTCDOTCOM 或者邮件 `webmaster@btc.com` 说明使用范围。
+
 #### 未确认交易哈希
 
 获取未确认交易的哈希
@@ -299,7 +301,8 @@ GET /address/{address}
 * 获取多个地址
 
   <code>[${ENDPOINT}/address/15urYnyeJe3gwbGJ74wcX89Tz7ZtsFDVew,1PErRgFdo757pyyMxFiwB326vuymXC3hev](${ENDPOINT}/address/15urYnyeJe3gwbGJ74wcX89Tz7ZtsFDVew,1PErRgFdo757pyyMxFiwB326vuymXC3hev)</code>
-
+  
+多个地址暂不开放，请联系微信 BTCDOTCOM 或者邮件 `webmaster@btc.com` 说明使用范围。
 
 #### 地址交易列表
 
@@ -373,3 +376,5 @@ POST /tools/verify-message
     "signature": "signature"
 }
 ```
+
+如果在调用时出现错误。请联系微信 BTCDOTCOM 或者 `webmaster@btc.com` 说明使用范围。
