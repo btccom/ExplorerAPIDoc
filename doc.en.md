@@ -221,10 +221,6 @@ GET /tx/{txhash}
 
   <code>[${ENDPOINT}/tx/0eab89a271380b09987bcee5258fca91f28df4dadcedf892658b9bc261050d96?verbose=3](${ENDPOINT}/tx/0eab89a271380b09987bcee5258fca91f28df4dadcedf892658b9bc261050d96?verbose=3)</code>
 
-* Get Multiple Transaction
-
-  <code>[${ENDPOINT}/tx/000000000000000005cb6f6e2f09e84a353ab91756a38aa50fbaf25059f76666,0ba9252660a6a5f291a8983092074f9a1da5f6d1c790518d6550f054e60bbab1](${ENDPOINT}/tx/000000000000000005cb6f6e2f09e84a353ab91756a38aa50fbaf25059f76666,0ba9252660a6a5f291a8983092074f9a1da5f6d1c790518d6550f054e60bbab1)</code>
-
 #### Unconfirmed Tranasction Hash
 
 ```
@@ -258,11 +254,6 @@ GET /address/{address}
 * Get single address
   
   <code>[${ENDPOINT}/address/15urYnyeJe3gwbGJ74wcX89Tz7ZtsFDVew](${ENDPOINT}/address/15urYnyeJe3gwbGJ74wcX89Tz7ZtsFDVew)</code>
-
-* Get multiple address
-
-  <code>[${ENDPOINT}/address/15urYnyeJe3gwbGJ74wcX89Tz7ZtsFDVew,1PErRgFdo757pyyMxFiwB326vuymXC3hev](${ENDPOINT}/address/15urYnyeJe3gwbGJ74wcX89Tz7ZtsFDVew,1PErRgFdo757pyyMxFiwB326vuymXC3hev)</code>
-
 
 #### Address Transactions
 
