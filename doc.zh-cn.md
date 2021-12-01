@@ -4,11 +4,11 @@
 
 联系方式如下：
 
-Telegram: https://t.me/btccomchinese
-Twitter: https://twitter.com/btccom_official
-Discord: https://discord.com/invite/R8HzUvg2eR
-Wechat: BTCDOTCOM
-Mail: webmaster@btc.com, webmaster@btcm.group
++ Telegram: https://t.me/btccomchinese
++ Twitter: https://twitter.com/btccom_official
++ Discord: https://discord.com/invite/R8HzUvg2eR
++ Wechat: BTCDOTCOM
++ Mail: webmaster@btcm.group
 
 ## 请求
 
