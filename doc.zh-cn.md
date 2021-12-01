@@ -2,6 +2,14 @@
 
 您的应用可以使用 BTC.COM 提供的区块链数据 API，实时获取比特币网络数据。
 
+联系方式如下：
+
+Telegram: https://t.me/btccomchinese
+Twitter: https://twitter.com/btccom_official
+Discord: https://discord.com/invite/R8HzUvg2eR
+Wechat: BTCDOTCOM
+Mail: webmaster@btc.com, webmaster@btcm.group
+
 ## 请求
 
 部分接口支持批量请求，如：
@@ -12,7 +20,7 @@ GET /block/2
 GET /block/3
 ```
 
-如果想用以下请求代替，请联系 `webmaster@btc.com` 说明使用范围以及联系方式。
+如果想用以下请求代替，请使用以下联系方式：
 
 ```
 GET /block/1,2,3
@@ -28,7 +36,7 @@ GET /block/1,2,3
 
 ## 请求速率限制
 
-目前对外公开的API速率限制为 `每分钟10次`。如需更高调用频率请联系 `webmaster@btc.com` 说明使用范围。
+目前对外公开的API速率限制为 `每分钟6次`。如需更高调用频率请联系工作人员说明使用范围。
 
 ## 响应类型
 
@@ -256,7 +264,7 @@ GET /tx/{txhash}
 
   <code>[${ENDPOINT}/tx/000000000000000005cb6f6e2f09e84a353ab91756a38aa50fbaf25059f76666,0ba9252660a6a5f291a8983092074f9a1da5f6d1c790518d6550f054e60bbab1](${ENDPOINT}/tx/000000000000000005cb6f6e2f09e84a353ab91756a38aa50fbaf25059f76666,0ba9252660a6a5f291a8983092074f9a1da5f6d1c790518d6550f054e60bbab1)</code>
 
-获取多个交易暂不开放，请联系微信 BTCDOTCOM 或者邮件 `webmaster@btc.com` 说明使用范围。
+获取多个交易暂不开放，请联系工作人员说明使用范围。
 
 #### 未确认交易哈希
 
@@ -302,7 +310,7 @@ GET /address/{address}
 
   <code>[${ENDPOINT}/address/15urYnyeJe3gwbGJ74wcX89Tz7ZtsFDVew,1PErRgFdo757pyyMxFiwB326vuymXC3hev](${ENDPOINT}/address/15urYnyeJe3gwbGJ74wcX89Tz7ZtsFDVew,1PErRgFdo757pyyMxFiwB326vuymXC3hev)</code>
   
-多个地址暂不开放，请联系微信 BTCDOTCOM 或者邮件 `webmaster@btc.com` 说明使用范围。
+多个地址暂不开放，请联系工作人员说明使用范围。
 
 #### 地址交易列表
 
@@ -339,7 +347,7 @@ GET /address/{address}/unspent
 
 ### 工具
 
-使用下面的工具使用 bitcoind 提供的 API。如果在调用时出现错误，会在 `data` 字段内记录错误信息。请联系 `webmaster@btc.com` 说明使用范围。
+使用下面的工具使用 bitcoind 提供的 API。如果在调用时出现错误，会在 `data` 字段内记录错误信息。请联系工作人员说明使用范围。
 
 #### 解码交易
 
@@ -377,4 +385,4 @@ POST /tools/verify-message
 }
 ```
 
-如果在调用时出现错误。请联系微信 BTCDOTCOM 或者 `webmaster@btc.com` 说明使用范围。
+如果在调用时出现错误。请联系工作人员说明使用范围。
