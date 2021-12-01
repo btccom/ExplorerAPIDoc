@@ -2,6 +2,11 @@
 
 Your applications can access the data of Bitcoin network via the API provided by BTC.COM.
 
++ Telegram: https://t.me/btccomchinese
++ Twitter: https://twitter.com/btccom_official
++ Discord: https://discord.com/invite/R8HzUvg2eR
++ Mail: webmaster@btcm.group
+
 ## General
 
 Some API calls can handle multiple parameters. For instance, if you request information about a couple of blocks, you can send one API call for all of them. Parameter delimiter is a comman(,).
