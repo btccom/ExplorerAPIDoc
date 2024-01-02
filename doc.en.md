@@ -5,7 +5,7 @@ Your applications can access the data of Bitcoin network via the API provided by
 + Telegram: https://t.me/btccomchinese
 + Twitter: https://twitter.com/btccom_official
 + Discord: https://discord.com/invite/R8HzUvg2eR
-+ Mail: support@btcm.group
++ Mail: support@connectbtc.com
 
 ## General
 

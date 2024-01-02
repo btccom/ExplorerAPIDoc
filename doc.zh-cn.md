@@ -8,7 +8,7 @@
 + Twitter: https://twitter.com/btccom_official
 + Discord: https://discord.com/invite/R8HzUvg2eR
 + Wechat: BTCDOTCOM
-+ Mail: support@btcm.group
++ Mail: support@connectbtc.com
 
 ## 请求
 
