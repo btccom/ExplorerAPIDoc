@@ -10,6 +10,13 @@
 + Wechat: BTCDOTCOM
 + Mail: support@connectbtc.com
 
+## 支持的币种
++ BTC
+   https://chain.api.btc.com
++ BCH
+   https://bch-chain.api.btc.com
++ LTC
+   https://ltc-chain.api.btc.com
 ## 请求
 
 部分接口支持批量请求，如：

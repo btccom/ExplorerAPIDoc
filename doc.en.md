@@ -7,6 +7,14 @@ Your applications can access the data of Bitcoin network via the API provided by
 + Discord: https://discord.com/invite/R8HzUvg2eR
 + Mail: support@connectbtc.com
 
+## support coin
++ BTC
+   https://chain.api.btc.com
++ BCH
+   https://bch-chain.api.btc.com
++ LTC
+   https://ltc-chain.api.btc.com
+
 ## General
 
 Some API calls can handle multiple parameters. For instance, if you request information about a couple of blocks, you can send one API call for all of them. Parameter delimiter is a comman(,).
