@@ -12,7 +12,7 @@
 
 ## 支持的币种
 + BTC
-   https://chain.api.btc.com
+   https://tools.api.btc.com/docs/#overview
 + BCH
    https://bch-chain.api.btc.com
 + LTC
