@@ -9,7 +9,7 @@ Your applications can access the data of Bitcoin network via the API provided by
 
 ## support coin
 + BTC
-   https://chain.api.btc.com
+   https://tools.api.btc.com/docs/en#overview
 + BCH
    https://bch-chain.api.btc.com
 + LTC
