@@ -18,15 +18,15 @@ GET /block/{xxx}
 
   * Get the 3rd block
 
-    <code>[${ENDPOINT}/block/3](${ENDPOINT}/block/3)</code>
+    <code>[https://chain.api.cloverpool.com/block/3](https://chain.api.cloverpool.com/block/3)</code>
 
   * Get the latest block
     
-    <code>[${ENDPOINT}/block/latest](${ENDPOINT}/block/latest)</code>
+    <code>[https://chain.api.cloverpool.com/block/latest](https://chain.api.cloverpool.com/block/latest)</code>
 
   * Get the latest and 3rd Block
 
-    <code>[${ENDPOINT}/block/latest,3](${ENDPOINT}/block/latest,3)</code>
+    <code>[https://chain.api.cloverpool.com/block/latest,3](https://chain.api.cloverpool.com/block/latest,3)</code>
 
 
 ### Block List
@@ -41,7 +41,7 @@ GET /block/date/{ymd}
 
   * Get block list on 12/15/2015
 
-    <code>[${ENDPOINT}/block/date/20151215](${ENDPOINT}/block/date/20151215)</code>
+    <code>[https://chain.api.cloverpool.com/block/date/20151215](https://chain.api.cloverpool.com/block/date/20151215)</code>
 
 ### Block Transactions
 
@@ -60,11 +60,11 @@ Parameters：
 
 * Get transactions of Latest block
 
-  <code>[${ENDPOINT}/block/latest/tx](${ENDPOINT}/block/latest/tx)</code>
+  <code>[https://chain.api.cloverpool.com/block/latest/tx](https://chain.api.cloverpool.com/block/latest/tx)</code>
   
 * Get transaction of single block
 
-  <code>[${ENDPOINT}/block/3/tx](${ENDPOINT}/block/3/tx)</code>
+  <code>[https://chain.api.cloverpool.com/block/3/tx](https://chain.api.cloverpool.com/block/3/tx)</code>
 
 ## Transaction
 
@@ -78,7 +78,7 @@ GET /tx/{txhash}
 
 * Get Single Transaction
 
-  <code>[${ENDPOINT}/tx/0eab89a271380b09987bcee5258fca91f28df4dadcedf892658b9bc261050d96?verbose=3](${ENDPOINT}/tx/0eab89a271380b09987bcee5258fca91f28df4dadcedf892658b9bc261050d96?verbose=3)</code>
+  <code>[https://chain.api.cloverpool.com/tx/0eab89a271380b09987bcee5258fca91f28df4dadcedf892658b9bc261050d96?verbose=3](https://chain.api.cloverpool.com/tx/0eab89a271380b09987bcee5258fca91f28df4dadcedf892658b9bc261050d96?verbose=3)</code>
 
 ### Unconfirmed Tranasction Hash
 
@@ -88,7 +88,7 @@ GET /tx/unconfirmed
 
 #### Examples
 
-<code>[${ENDPOINT}/tx/unconfirmed](${ENDPOINT}/tx/unconfirmed)</code>
+<code>[https://chain.api.cloverpool.com/tx/unconfirmed](https://chain.api.cloverpool.com/tx/unconfirmed)</code>
   
 ### Unconfirmed Tranasctions Summary
 
@@ -98,7 +98,7 @@ GET /tx/unconfirmed/summary
 
 #### Examples
 
-<code>[${ENDPOINT}/tx/unconfirmed/summary](${ENDPOINT}/tx/unconfirmed/summary)</code>
+<code>[https://chain.api.cloverpool.com/tx/unconfirmed/summary](https://chain.api.cloverpool.com/tx/unconfirmed/summary)</code>
 
 ## Address
 
@@ -112,7 +112,7 @@ GET /address/{address}
 
 * Get single address
   
-  <code>[${ENDPOINT}/address/15urYnyeJe3gwbGJ74wcX89Tz7ZtsFDVew](${ENDPOINT}/address/15urYnyeJe3gwbGJ74wcX89Tz7ZtsFDVew)</code>
+  <code>[https://chain.api.cloverpool.com/address/15urYnyeJe3gwbGJ74wcX89Tz7ZtsFDVew](https://chain.api.cloverpool.com/address/15urYnyeJe3gwbGJ74wcX89Tz7ZtsFDVew)</code>
 
 ### Address Transactions
 
@@ -129,7 +129,7 @@ Parameters:
 
 #### Examples
 
-  <code>[${ENDPOINT}/address/15urYnyeJe3gwbGJ74wcX89Tz7ZtsFDVew/tx](${ENDPOINT}/address/15urYnyeJe3gwbGJ74wcX89Tz7ZtsFDVew/tx)</code>
+  <code>[https://chain.api.cloverpool.com/address/15urYnyeJe3gwbGJ74wcX89Tz7ZtsFDVew/tx](https://chain.api.cloverpool.com/address/15urYnyeJe3gwbGJ74wcX89Tz7ZtsFDVew/tx)</code>
 
 ### Unspent
 
@@ -141,5 +141,5 @@ GET /address/{address}/unspent
 
 #### Examples
 
-  <code>[${ENDPOINT}/address/15urYnyeJe3gwbGJ74wcX89Tz7ZtsFDVew/unspent](${ENDPOINT}/address/15urYnyeJe3gwbGJ74wcX89Tz7ZtsFDVew/unspent)</code>
+  <code>[https://chain.api.cloverpool.com/address/15urYnyeJe3gwbGJ74wcX89Tz7ZtsFDVew/unspent](https://chain.api.cloverpool.com/address/15urYnyeJe3gwbGJ74wcX89Tz7ZtsFDVew/unspent)</code>
 

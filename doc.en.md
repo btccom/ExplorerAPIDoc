@@ -1,6 +1,6 @@
-# BTC.COM API V3
+# CloverPool API V3
 
-Your applications can access the data of Bitcoin network via the API provided by BTC.COM.
+Your applications can access the data of Bitcoin network via the API provided by CloverPool.
 
 + Telegram: https://t.me/btccomchinese
 + Twitter: https://twitter.com/btccom_official
@@ -9,11 +9,11 @@ Your applications can access the data of Bitcoin network via the API provided by
 
 ## support coin
 + BTC
-   https://tools.api.btc.com/docs/en#overview
+   https://tools.api.cloverpool.com/docs/en#overview
 + BCH
-   https://bch-chain.api.btc.com
+   https://bch-chain.api.cloverpool.com
 + LTC
-   https://ltc-chain.api.btc.com
+   https://ltc-chain.api.cloverpool.com
 
 ## General
 

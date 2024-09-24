@@ -32,7 +32,7 @@ Block {
 
 块中记录的`timestamp`不是随着高度严格递增的。在这里，我们添加了`curr_max_timestamp`块最大时间戳字段，它是指在该块产生时，所有块的最大时间戳，保证严格大于或等于上一个块时间。一些接口会使用该字段记录的日期，如按照日期获取块列表的接口。
 
-## Transaction
+## 交易数据
 
 ```
 Transaction {
@@ -69,7 +69,7 @@ Transaction {
 }
 ```
 
-由于部分交易体积很大，为提高传输效率，所有涉及到交易的接口，均支持交易信息的分级输出，如`${ENDPOINT}/block/latest/tx?verbose=2`。
+由于部分交易体积很大，为提高传输效率，所有涉及到交易的接口，均支持交易信息的分级输出，如`https://chain.api.cloverpool.com/block/latest/tx?verbose=2`。
 
 `verbose`，可选，默认为2，选择输出内容等级，含义分别如下：
 
@@ -77,7 +77,7 @@ Transaction {
   * 等级 2，包含等级 1、交易的输入、输出地址与金额；
   * 等级 3，包含等级 2、交易的输入、输入 script 等信息。
 
-## Address
+## 地址数据
 
 ```
 {
@@ -93,7 +93,7 @@ Transaction {
 }
 ```
 
-## Unspent
+## 未花费数据
 
 ```
 {

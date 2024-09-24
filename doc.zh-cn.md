@@ -1,6 +1,6 @@
-# BTC.COM API V3
+# CloverPool API V3
 
-您的应用可以使用 BTC.COM 提供的区块链数据 API，实时获取比特币网络数据。
+您的应用可以使用 CloverPool 提供的区块链数据 API，实时获取比特币网络数据。
 
 联系方式如下：
 
@@ -12,11 +12,11 @@
 
 ## 支持的币种
 + BTC
-   https://tools.api.btc.com/docs/#overview
+   https://tools.api.cloverpool.com/docs/#overview
 + BCH
-   https://bch-chain.api.btc.com
+   https://bch-chain.api.cloverpool.com
 + LTC
-   https://ltc-chain.api.btc.com
+   https://ltc-chain.api.cloverpool.com
 ## 请求
 
 部分接口支持批量请求，如：

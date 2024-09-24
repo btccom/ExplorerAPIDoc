@@ -1,7 +1,7 @@
 # support coin
 + BTC
-   https://tools.api.btc.com/docs/en#overview
+   https://tools.api.cloverpool.com/docs/en#overview
 + BCH
-   https://bch-chain.api.btc.com
+   https://bch-chain.api.cloverpool.com
 + LTC
-   https://ltc-chain.api.btc.com
+   https://ltc-chain.api.cloverpool.com

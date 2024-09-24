@@ -1,7 +1,7 @@
 # 支持的币种
 + BTC
-   https://tools.api.btc.com/docs/#overview
+   https://tools.api.cloverpool.com/docs/#overview
 + BCH
-   https://bch-chain.api.btc.com
+   https://bch-chain.api.cloverpool.com
 + LTC
-   https://ltc-chain.api.btc.com
+   https://ltc-chain.api.cloverpool.com
